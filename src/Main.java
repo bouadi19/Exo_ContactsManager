@@ -3,26 +3,26 @@ public class Main {
         ContactsManager  myContactsManager = new ContactsManager();
 
         Contact contact = new Contact();
-        contact.name = "Soeurette";
-        contact.phoneNumber = "0202074486";
+        contact.name = "Corine";
+        contact.phoneNumber = "0766889651";
         myContactsManager.addContact(contact);
 
         Contact contact1 = new Contact();
-        contact1.name = "Melanie";
-        contact1.phoneNumber = "0101434567";
+        contact1.name = "Stephie";
+        contact1.phoneNumber = "0700987211";
         myContactsManager.addContact(contact1);
 
         Contact contact2 = new Contact();
-        contact2.name = "Patrick ";
-        contact2.phoneNumber = "0707654589";
+        contact2.name = "Mamie";
+        contact2.phoneNumber = "0256437898";
         myContactsManager.addContact(contact2);
 
         Contact contact3 = new Contact();
-        contact3.name = "grace";
-        contact3.phoneNumber = "0239239499";
+        contact3.name = "Emmanuella";
+        contact3.phoneNumber = "0890986433";
         myContactsManager.addContact(contact3);
 
-        Contact phone = myContactsManager.searchContact("Soeurette");
+        Contact phone = myContactsManager.searchContact("Emmanuella");
 
         System.out.println(phone.phoneNumber);
     }
